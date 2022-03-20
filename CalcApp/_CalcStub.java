@@ -134,4 +134,9 @@ public class _CalcStub extends org.omg.CORBA.portable.ObjectImpl implements Calc
      orb.destroy() ;
    }
   }
+
+@Override
+public float squared(float a) {
+    return a*a;
+}
 } // class _CalcStub

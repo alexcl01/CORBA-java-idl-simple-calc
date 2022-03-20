@@ -34,6 +34,11 @@ class CalcImpl extends CalcPOA {
     public float sub(float a, float b) {
         return a - b;
     }
+
+    @Override
+    public float squared(float a) {
+        return a*a;
+    }
     private ORB orb;
 
     public void setORB(ORB orb_val) {
